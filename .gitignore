@@ -1,1 +1,9 @@
+# Dependency directories
 node_modules
+
+# Environement variables
+.env
+
+# Hardhat compilation
+cache/
+artifacts/

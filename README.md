@@ -8,7 +8,7 @@ Following an Hardhat and Ethers tutorial to deploy an NFT Smart Contract.
 npm install
 ```
 
-## Compile Smart Contract
+## Compile and Deploy Smart Contract
 
 You will need to provide 2 things in order to compile and deploy the smart contract
 
@@ -29,3 +29,11 @@ Compile the contract:
 ```
 npx hardhat compile
 ```
+
+Deploy the contract:
+
+```
+npx hardhat run scripts/deploy.js --network rinkeby
+```
+
+You should now be inform with the address of your contract. Go to [Etherscan](https://rinkeby.etherscan.io/) to see it by yourself.

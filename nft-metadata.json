@@ -1,0 +1,16 @@
+{
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "None"
+      },
+      {
+        "trait_type": "Moon",
+        "value": "None"
+      }
+    ],
+    "description": "Ice Planet",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRC472CoGXeCk3bWaMqBM32LAN9KDj6DfbdsNe1B5tj1N",
+    "name": "planet1"
+  }
+  

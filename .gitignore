@@ -7,3 +7,6 @@ node_modules
 # Hardhat compilation
 cache/
 artifacts/
+
+# Build
+build/

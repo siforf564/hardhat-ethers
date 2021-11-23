@@ -1,0 +1,12 @@
+{
+    "name": "La Belle Province",
+    "description": "Address: Multiple Locations",
+    "image": "",
+    "attributes": [
+        {
+            "trait_type": "Review",
+            "value": 3,
+            "max_value": 10
+        }
+    ]
+}

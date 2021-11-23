@@ -9,4 +9,7 @@ cache/
 artifacts/
 
 # Build
-build/
+# build/
+
+# macOS
+**.DS_store**

@@ -1,0 +1,12 @@
+{
+    "name": "Frite Alors!",
+    "description": "Address: Multiple Locations",
+    "image": "",
+    "attributes": [
+        {
+            "trait_type": "Review",
+            "value": 9,
+            "max_value": 10
+        }
+    ]
+}

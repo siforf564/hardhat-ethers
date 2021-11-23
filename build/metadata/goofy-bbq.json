@@ -1,0 +1,20 @@
+{
+    "name": "Chez Goofy (BBQ)",
+    "description": "Address: 800 Av. du Pont S, Alma, QC G8B 2V8",
+    "image": "",
+    "attributes": [
+        {
+            "trait_type": "Sauce",
+            "value": "BBQ"
+        },
+        {
+            "trait_type": "Cheese",
+            "value": "Grated"
+        },
+        {
+            "trait_type": "Review",
+            "value": 6,
+            "max_value": 10
+        }
+    ]
+}

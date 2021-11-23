@@ -1,0 +1,16 @@
+{
+    "name": "Chez Tousignant",
+    "description": "Address: 6956 Rue Drolet, Montréal, QC H2S 2T3",
+    "image": "",
+    "attributes": [
+        {
+            "trait_type": "Toppings",
+            "value": "Spices"
+        },
+        {
+            "trait_type": "Review",
+            "value": 8,
+            "max_value": 10
+        }
+    ]
+}

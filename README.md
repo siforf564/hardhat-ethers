@@ -39,6 +39,12 @@ npx hardhat run scripts/deploy.js --network rinkeby
 
 You should now be inform with the address of your contract. Go to [Etherscan](https://rinkeby.etherscan.io/) to see it by yourself.
 
+Add this address to your ```.env``` file like so:
+
+```
+CONTRACT="CONTRACT-ADDRESS"
+```
+
 ## Mint a NTF
 
 Now that your contract is deployed on the Ethereum network, you can use it to mint your first NFT. To do so, you need to upload 2 things to IPFS decentralized database:

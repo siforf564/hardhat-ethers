@@ -1,11 +1,11 @@
 const Web3 = require("web3");
 const contract = require("../artifacts/contracts/MyNFT.sol/MyNFT.json")
-const contractAddress = "0x74da76e77b6870bf8399252921a85fc6a1284960";
 
 require("dotenv").config();
 const API_URL = process.env.API_URL;
 const PUBLIC_KEY = process.env.PUBLIC_KEY;
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
+const contractAddress = process.env.CONTRACT; 
 
 const provider = new Web3.providers.HttpProvider(API_URL);
 web3 = new Web3(provider);

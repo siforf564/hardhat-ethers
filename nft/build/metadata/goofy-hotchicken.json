@@ -1,11 +1,11 @@
 {
-    "name": "Chez Goofy (BBQ)",
+    "name": "Chez Goofy (Hot Chicken)",
     "description": "Address: 800 Av. du Pont S, Alma, QC G8B 2V8",
-    "image": "",
+    "image": "ipfs://QmRCHVBssXZQk6dqoFxaU1miLrogUZ6sPS6jzJdGL1upiR/goofy-hotchicken.jpeg",
     "attributes": [
         {
             "trait_type": "Sauce",
-            "value": "BBQ"
+            "value": "Hot Chicken"
         },
         {
             "trait_type": "Cheese",
@@ -13,7 +13,7 @@
         },
         {
             "trait_type": "Review",
-            "value": 6,
+            "value": 5,
             "max_value": 10
         }
     ]

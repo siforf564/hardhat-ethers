@@ -47,7 +47,7 @@ async function mintNFT(tokenURI) {
 };
 
 mintNFT(
-    "https://gateway.pinata.cloud/ipfs/QmXVZYAXiCMBVFM75TAV8NTBLv9p7HEJKcA2DUGwuNrMn9"
+    "https://gateway.pinata.cloud/ipfs/QmNSTa26uGaP4W33iAGezjsC3dxH6PHRpKeyehLX6reubC/goofy-hotchicken.json"
 )
 
 

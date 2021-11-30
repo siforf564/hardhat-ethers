@@ -11,6 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "chai": "^4.3.4",
     "ethers": "^5.5.1",
     "hardhat": "^2.6.8",
     "web3": "^1.6.1"

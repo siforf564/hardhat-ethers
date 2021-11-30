@@ -10,3 +10,6 @@ artifacts/
 
 # Build
 build/
+
+# macOS
+**.DS_store**

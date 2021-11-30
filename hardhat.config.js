@@ -12,6 +12,9 @@ module.exports = {
     rinkeby: {
        url: API_URL,
        accounts: [`0x${PRIVATE_KEY}`]
+    },
+   },
+   mocha: {
+      timeout: 30000
     }
- },
 };

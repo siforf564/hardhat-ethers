@@ -12,15 +12,23 @@ web3 = new Web3(provider);
 
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress);
 
-async function mintNFT(tokenURI) {
+async function mintNFT() {
     const nonce = await web3.eth.getTransactionCount(PUBLIC_KEY, 'latest')
 
+    const gasPrice = await web3.eth.getGasPrice()
+    console.log('gasPrice:', web3.utils.fromWei(gasPrice, 'gwei'), 'gwei')
+    
+    const txGasPrice = parseInt(gasPrice*1.1)
+    console.log('Transaction gasPrice:', web3.utils.fromWei(String(txGasPrice), 'gwei'), 'gwei')
+
+    /**
     const tx = {
         from: PUBLIC_KEY,
         to: contractAddress,
         nonce: nonce,
-        gas: 500000,
-        data: nftContract.methods.mintNFT(PUBLIC_KEY, tokenURI).encodeABI()
+        gas: 200000,
+        gasPrice: txGasPrice,
+        data: nftContract.methods.mintNFT(3, '').encodeABI()
     }
 
     const signPromise = web3.eth.accounts.signTransaction(tx, PRIVATE_KEY)
@@ -44,10 +52,7 @@ async function mintNFT(tokenURI) {
     }).catch((err) => {
         console.log("Promise failed:", err)
     })
+    */
 };
 
-mintNFT(
-    "https://gateway.pinata.cloud/ipfs/QmXVZYAXiCMBVFM75TAV8NTBLv9p7HEJKcA2DUGwuNrMn9"
-)
-
-
+mintNFT()
